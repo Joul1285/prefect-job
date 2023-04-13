@@ -5,4 +5,6 @@ def my_favorite_function():
     print("What is your favorite number?")
     return 42
 
-print(my_favorite_function())
+
+if __name__ == "main":
+    print(my_favorite_function())
